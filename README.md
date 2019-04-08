@@ -31,7 +31,10 @@ TCP Port
 1-1024是固定端口：即被某些程序固定使用，一般不能使用。
 1025-65535这些端口多数没有明确的定义服务对象，可以使用。
 ```
-
+Handle数量
+```
+select模型句柄数量Win1024 Linux需要配置
+```
 ### Unreal版本
 A step by step series of examples that tell you how to get a development env running
 Say what the step will be

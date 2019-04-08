@@ -25,17 +25,15 @@ git clone https://github.com/game102/FiveChessCServer.git
 ```
 
 ### 技术点梳理
+TCP Port
+```
 0号是保留端口
 1-1024是固定端口：即被某些程序固定使用，一般不能使用。
 1025-65535这些端口多数没有明确的定义服务对象，可以使用。
 ```
-Give the example
-```
 
 ### Unreal版本
-
 A step by step series of examples that tell you how to get a development env running
-
 Say what the step will be
 
 ```

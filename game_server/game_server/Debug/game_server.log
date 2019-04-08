@@ -1,0 +1,14 @@
+﻿  main.c
+  tcp_listener.c
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(100): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'sockaddr *'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(52): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1830): note: see declaration of 'inet_addr'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(104): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(105): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'
+  tcp_session.c
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_session.c(99): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  Generating Code...
+  game_server.vcxproj -> E:\Project\CocosCreator\FiveChess\game_server\Debug\game_server.exe

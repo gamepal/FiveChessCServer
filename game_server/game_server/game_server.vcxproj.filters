@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\socket_io">
+      <UniqueIdentifier>{634219ed-c202-4488-b719-90cf74721b5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\socket_io\tcp_listener.c">
+      <Filter>src\socket_io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\socket_io\tcp_session.c">
+      <Filter>src\socket_io</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\socket_io\tcp_listener.h">
+      <Filter>src\socket_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\socket_io\tcp_session.h">
+      <Filter>src\socket_io</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

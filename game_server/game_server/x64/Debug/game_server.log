@@ -1,0 +1,53 @@
+﻿  main.c
+  tcp_listener.c
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(17): error C2065: 'fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(17): error C2065: 'set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(17): error C2059: syntax error: ')'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(18): warning C4013: 'FD_SET' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(18): error C2065: 'set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(24): error C2065: 'fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(24): error C2065: 'set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(24): error C2059: syntax error: ')'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(27): warning C4013: 'FD_ISSET' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(27): error C2065: 'set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(43): warning C4013: 'socket' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(43): error C2065: 'AF_INET': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(43): error C2065: 'SOCK_STREAM': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(43): error C2065: 'IPPROTO_TCP': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(44): error C2065: 'INVALID_SOCKET': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(51): error C2079: 'server_listen_addr' uses undefined struct 'sockaddr_in'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(52): error C2224: left of '.sin_addr' must have struct/union type
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(52): warning C4013: 'inet_addr' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(53): error C2224: left of '.sin_port' must have struct/union type
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(53): warning C4013: 'htons' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(54): error C2224: left of '.sin_family' must have struct/union type
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(54): error C2065: 'AF_INET': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(55): warning C4013: 'bind' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(63): warning C4013: 'listen' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(72): error C2065: 'fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(72): error C2146: syntax error: missing ';' before identifier 'server_fd_set'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(72): error C2065: 'server_fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(76): warning C4013: 'FD_ZERO' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(76): error C2065: 'server_fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(77): error C2065: 'server_fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(79): error C2065: 'server_fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(82): warning C4013: 'select' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(82): error C2065: 'server_fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(96): error C2065: 'server_fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(98): error C2079: 'to_client_addr' uses undefined struct 'sockaddr_in'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(100): warning C4013: 'accept' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(102): error C2065: 'INVALID_SOCKET': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(104): warning C4013: 'inet_ntoa' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(104): error C2224: left of '.sin_addr' must have struct/union type
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(104): warning C4013: 'ntohs' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(104): error C2224: left of '.sin_port' must have struct/union type
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(104): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(104): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(105): error C2224: left of '.sin_addr' must have struct/union type
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(105): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(105): warning C4024: 'add_session': different types for formal and actual parameter 2
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(105): error C2224: left of '.sin_port' must have struct/union type
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(109): error C2065: 'server_fd_set': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(116): error C2065: 'INVALID_SOCKET': undeclared identifier
+e:\project\cocoscreator\fivechess\game_server\src\socket_io\tcp_listener.c(118): warning C4013: 'closesocket' undefined; assuming extern returning int
+  Generating Code...

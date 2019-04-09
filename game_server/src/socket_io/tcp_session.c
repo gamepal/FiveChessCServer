@@ -156,7 +156,7 @@ static void bin_process_package(struct session* s)
 
 	if (pack_len > MAX_RECV_BUFFER)
 	{
-		goto pack_failed;
+		goto pack_failed;  //close session
 	}
 
 	//处理包内容
@@ -208,7 +208,7 @@ pack_failed:
 }
 
 
-void session_data_receivesession_data_receive(struct session *s)
+void session_data_receive(struct session *s)
 {
 	int readed = recv(s->to_client_socket,
 		session_manager.receive_buffer + session_manager.already_readed,

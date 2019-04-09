@@ -19,12 +19,18 @@
     <ClCompile Include="..\src\socket_io\tcp_session.c">
       <Filter>src\socket_io</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\socket_io\tcp_iocp.c">
+      <Filter>src\socket_io</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\socket_io\tcp_listener.h">
       <Filter>src\socket_io</Filter>
     </ClInclude>
     <ClInclude Include="..\src\socket_io\tcp_session.h">
+      <Filter>src\socket_io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\socket_io\tcp_iocp.h">
       <Filter>src\socket_io</Filter>
     </ClInclude>
   </ItemGroup>

@@ -29,7 +29,8 @@ int main(int argc, char** argv)
 	}
 
 	struct sockaddr_in sockaddr;
-	sockaddr.sin_addr.S_un.S_addr = inet_addr("47.103.41.186");
+	sockaddr.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
+	//sockaddr.sin_addr.S_un.S_addr = inet_addr("47.103.41.186");
 	sockaddr.sin_family = AF_INET;
 	sockaddr.sin_port = htons(6000);
 
@@ -44,6 +45,7 @@ int main(int argc, char** argv)
 		return -1;
 	}
 
+	send(s, "hello", 5, 0);
 	printf("Connect success\n");
 	system("pause");
 	closesocket(s);

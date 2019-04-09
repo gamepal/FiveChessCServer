@@ -21,6 +21,8 @@ void foreach_online_session(int(*callback)(struct session *s, void *p), void *p)
 
 void session_data_receive(struct session *s);
 
+void close_session(struct session *s);
+
 void clear_closed_session();
 
 #endif

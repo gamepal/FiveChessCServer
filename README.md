@@ -51,6 +51,26 @@ Select&IOCP
           (3):每次请求与获取数据都要从先建立连接;
           (4):服务器不能像客户端主动发送数据;
 ```
+Websocket原理
+```
+1:解析客户端发送过来的报文;
+GET /chat HTTP/1.1     (/char为url)
+Host: server.example.com  (报文内容key:value start)
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==  (”来自客户端的随机”)
+Origin: http://example.com
+Sec-WebSocket-Protocol: chat, superchat
+Sec-WebSocket-Version: 13   [报文内容key:value end]
+
+2:返回key+migic ， SHA-1  加密， base-64 编码
+key=”来自客户端的随机”, migic = “258EAFA5-E914-47DA-95CA-C5AB0DC85B11”;
+HTTP/1.1 101 Switching Protocols
+Upgrade: websocket   [报文内容key:value start]
+Connection: Upgrade
+Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo= (”来自服务端编码”)
+Sec-WebSocket-Protocol: chat  [报文内容key:value end]
+```
 ### Unreal版本
 A step by step series of examples that tell you how to get a development env running
 Say what the step will be

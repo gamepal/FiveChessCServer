@@ -24,7 +24,7 @@ cd /opt/creator_server
 git clone https://github.com/game102/FiveChessCServer.git
 ```
 
-### 技术点梳理
+### 技术点
 TCP Port
 ```
 0号是保留端口
@@ -37,6 +37,19 @@ Select&IOCP
 2:IOCP与select的不同,select需要多次的重置管理句柄,IOCP只要一次;
 3:有事件后select需要操作获取数据，而IOCP通知你的时候已经操作好了;
 4:IOCP支持多线程同时等待;
+```
+长连接&短链接
+```
+长连接:初始化的时候，建立连接，一直不关闭;
+          (1)服务器与客户端能以最快的速度发送数据;
+          (2)服务器能主动的向客服端发送数据;
+          (3):长链接长期占用网络资源;
+          (4):长链接的服务器不方便直接重启;
+短连接:发起连接--》发送数据--》获取数据-->关闭
+          (1)不会长期占用资源;
+          (2)方便服务器直接重启;
+          (3):每次请求与获取数据都要从先建立连接;
+          (4):服务器不能像客户端主动发送数据;
 ```
 ### Unreal版本
 A step by step series of examples that tell you how to get a development env running

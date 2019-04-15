@@ -7,11 +7,15 @@ struct session
 	int to_client_port;
 	int to_client_socket;
 	int is_removed;
+	int is_shake_hand;
 	void *player_data;
 	struct session *next;
 };
 
 void init_session_manager(int protocol_mode);
+
+// 有客服端进来，保存这个sesssion;
+struct session* add_session(int to_client_socket, char* ip, int port);
 
 void exit_session_manager();
 

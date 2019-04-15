@@ -32,7 +32,7 @@ int main(int argc, char** argv)
 	sockaddr.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
 	//sockaddr.sin_addr.S_un.S_addr = inet_addr("47.103.41.186");
 	sockaddr.sin_family = AF_INET;
-	sockaddr.sin_port = htons(6000);
+	sockaddr.sin_port = htons(6080);
 
 	int ret = connect(s, (struct sockaddr*)&sockaddr, sizeof(sockaddr));
 

@@ -24,7 +24,7 @@ cd /opt/creator_server
 git clone https://github.com/game102/FiveChessCServer.git
 ```
 
-### 技术点
+### Knowledge points
 TCP Port
 ```
 0号是保留端口
@@ -71,10 +71,31 @@ Connection: Upgrade
 Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo= (”来自服务端编码”)
 Sec-WebSocket-Protocol: chat  [报文内容key:value end]
 ```
-### Unreal版本
-A step by step series of examples that tell you how to get a development env running
-Say what the step will be
-
+Websocket收发
 ```
-Give the example
+二进制数据协议使用size + body的封包(size 为2个字节 size存的大小为body的大小+2)，
+json数据格式使用的是json数据协议的封包(使用\r\n);
+
+websocket 接收数据
+1固定字节(1000 0001或1000 0010);
+2包长度字节,第1位是1, 剩下7为得到一个整数(0, 127);125以内的长度直接表示就可以了；126表示后面两个字节表示大小,127表示后面的8个字节是数据的长度;
+3mark 掩码为包长之后的 4 个字节
+4兄弟数据：得到真实数据的方法：将兄弟数据的每一字节 x ，和掩码的第 i%4 字节做 xor 运算，其中 i 是 x 在兄弟数据中的索引
+
+websocket发送数据
+1固定字节
+2包长度字节
+4原始数据
+
+服务器收
+0:stype 服务类型
+1:opt_cmd 操作
+2:数据
+
+服务器发
+0:stype 服务类型
+1:opt_cmd 操作
+2:status状态码
+
+Websocket客户端关闭会向服务器发送关闭消息
 ```

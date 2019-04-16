@@ -15,7 +15,7 @@ int main(int argc, char** agv)
 	register_service(FIVE_CHESS_SERVICE, &SERVICE_TABLE);
 	//// end
 
-	start_server("127.0.0.1", 6081);
+	start_server("0.0.0.0", 6081);
 	exit_server_gateway();
 	return 0;
 }

@@ -1,0 +1,66 @@
+﻿  base64_encoder.c
+  sha1.c
+  http_parser.c
+  json.c
+e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json.c(132): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json.c(281): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json.c(313): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json.c(1190): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json.c(1338): warning C4477: 'fprintf' : format string '%lX' requires an argument of type 'unsigned long', but variadic argument 1 has type 'int64_t'
+  e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json.c(1338): note: consider using '%llX' in the format string
+  e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json.c(1338): note: consider using '%I64X' in the format string
+  json_extends.c
+e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json_extends.c(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+e:\project\cocoscreator\fivechess\game_server\src\3rd\mjson\json_extends.c(76): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  gateway.c
+  server_socket_win.c
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\server_socket_win.c(120): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\server_socket_win.c(135): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\server_socket_win.c(187): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\server_socket_win.c(195): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\server_socket_win.c(202): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\server_socket_win.c(571): warning C4013: 'get_proto_type' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\server_socket_win.c(595): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1830): note: see declaration of 'inet_addr'
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\server_socket_win.c(699): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'
+  session.c
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\session.c(97): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\session.c(242): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+e:\project\cocoscreator\fivechess\game_server\src\gateway\socket\session.c(274): warning C4013: 'json_free_str' undefined; assuming extern returning int
+  main.c
+  table_service.c
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(76): warning C4013: 'json_new_comand' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(77): warning C4013: 'json_object_push_number' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(76): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(125): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(158): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(172): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(319): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(347): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(386): warning C4013: 'json_object_at' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(393): warning C4047: '=': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(386): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(423): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(486): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(535): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(569): warning C4013: 'json_object_size' undefined; assuming extern returning int
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(574): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+e:\project\cocoscreator\fivechess\game_server\src\services\table_service.c(621): warning C4047: 'initializing': 'json_t *' differs in levels of indirection from 'int'
+  Generating code
+  All 98 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  game_server.vcxproj -> E:\Project\CocosCreator\FiveChess\game_server\proj.win32\Release\game_server.exe

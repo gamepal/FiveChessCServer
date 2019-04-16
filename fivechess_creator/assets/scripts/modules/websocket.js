@@ -77,6 +77,6 @@ var websocket = {    //作为一个module导出
     },
 }            
 
-websocket.connect("ws://127.0.0.1:6081/ws");
+websocket.connect("ws://47.103.41.186:6081/ws");
 console.log("connect to server......");
 module.exports = websocket;

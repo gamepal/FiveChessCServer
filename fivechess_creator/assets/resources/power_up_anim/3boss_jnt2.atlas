@@ -1,0 +1,76 @@
+
+3boss_jnt2.png
+size: 1237,564
+format: RGBA4444
+filter: Linear,Linear
+repeat: none
+eff_cj_huangguang
+  rotate: true
+  xy: 2, 2
+  size: 562, 586
+  orig: 566, 590
+  offset: 2, 2
+  index: -1
+quanquan_0
+  rotate: false
+  xy: 590, 298
+  size: 271, 266
+  orig: 271, 266
+  offset: 0, 0
+  index: -1
+shandianqiu_0
+  rotate: false
+  xy: 926, 230
+  size: 155, 160
+  orig: 180, 180
+  offset: 11, 8
+  index: -1
+shandianqiu_1
+  rotate: false
+  xy: 926, 72
+  size: 155, 156
+  orig: 180, 180
+  offset: 14, 8
+  index: -1
+shandianqiu_2
+  rotate: false
+  xy: 1036, 397
+  size: 167, 167
+  orig: 180, 180
+  offset: 8, 2
+  index: -1
+shandianqiu_3
+  rotate: false
+  xy: 590, 124
+  size: 171, 172
+  orig: 180, 180
+  offset: 6, 0
+  index: -1
+shandianqiu_4
+  rotate: false
+  xy: 863, 392
+  size: 171, 172
+  orig: 180, 180
+  offset: 6, 0
+  index: -1
+shandianqiu_5
+  rotate: false
+  xy: 1083, 235
+  size: 154, 160
+  orig: 180, 180
+  offset: 11, 8
+  index: -1
+shandianqiu_6
+  rotate: false
+  xy: 763, 130
+  size: 161, 166
+  orig: 180, 180
+  offset: 11, 4
+  index: -1
+shandianqiu_7
+  rotate: false
+  xy: 1083, 73
+  size: 154, 160
+  orig: 180, 180
+  offset: 11, 8
+  index: -1

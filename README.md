@@ -4,13 +4,13 @@ CocosCreator1.5.2 VS2017
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+www.dianmeng.us:6081
 
 ### CocosCreator版本
 
 game_client 开发连接测试
 game_server 服务器
-
+fivechess_creator 客户端
 ```
 上传代码
 git init
